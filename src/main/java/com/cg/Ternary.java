@@ -45,7 +45,7 @@ public class Ternary {
     {
         int m = x % 2;
         int n = x / 2;
-        String result = null;
+        String result = "";
 
         if (n>0)
             result += binary( n );
