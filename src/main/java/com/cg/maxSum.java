@@ -39,7 +39,6 @@ public class maxSum {
             else if ( total < 0 )
             {
                 renew = true;
-                total = 0;
                 saveTuple(savedTuple, start, end, sum);
             }
         }
